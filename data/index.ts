@@ -49,7 +49,7 @@ export const gridItems = [
 
 	{
 		id: 5,
-		title: "Currently building a JS Animation library",
+		title: "Currently building a ReactJS Chat Application",
 		description: "The Inside Scoop",
 		className: "md:col-span-3 md:row-span-2",
 		imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -80,27 +80,27 @@ export const projects = [
 	},
 	{
 		id: 2,
-		title: "Yoom - Video Conferencing App",
-		des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+		title: "Nible Concepts - Blog App",
+		des: "Unleash your creativity with Nimble Concepts, where fresh ideas spark transformation.",
 		img: "/p2.svg",
-		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-		link: "https://github.com/adrianhajdin/zoom-clone",
+		iconLists: ["/next.svg", "/css.svg", "/js.svg", "/nextAuth.svg", "/mongodb.svg"],
+		link: "https://github.com/Sauhardya27/Nimble-Concepts-Blog-App",
 	},
 	{
 		id: 3,
-		title: "AI Image SaaS - Canva Application",
-		des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+		title: "YieldVault - DeFi Application",
+		des: "Unlock your crypto potential with YieldVault. Earn more with every stake at YieldVault",
 		img: "/p3.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-		link: "https://github.com/adrianhajdin/ai_saas_app",
+		iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/sol.svg"],
+		link: "https://github.com/Sauhardya27/YieldVault",
 	},
 	{
 		id: 4,
-		title: "Animated Apple Iphone 3D Website",
-		des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+		title: "HazeXpert",
+		des: "HazeXpert utilises deep learning to dehaze and desmoke vedios and images online.",
 		img: "/p4.svg",
-		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-		link: "https://github.com/adrianhajdin/iphone",
+		iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/py.svg"],
+		link: "https://github.com/Sauhardya27/hazexpert_front_end",
 	},
 ];
 
@@ -182,14 +182,14 @@ export const workExperience = [
 		id: 2,
 		title: "Mobile App Dev - JSM Tech",
 		desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-		className: "md:col-span-2", // change to md:col-span-2
+		className: "md:col-span-2",
 		thumbnail: "/exp2.svg",
 	},
 	{
 		id: 3,
 		title: "Freelance App Dev Project",
 		desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-		className: "md:col-span-2", // change to md:col-span-2
+		className: "md:col-span-2",
 		thumbnail: "/exp3.svg",
 	},
 	{
@@ -205,13 +205,16 @@ export const socialMedia = [
 	{
 		id: 1,
 		img: "/git.svg",
+		link: "https://github.com/Sauhardya27",
 	},
 	{
 		id: 2,
-		img: "/twit.svg",
+		img: "/x.svg",
+		link: "https://x.com/Sauhardya27",
 	},
 	{
 		id: 3,
 		img: "/link.svg",
+		link: "https://www.linkedin.com/in/sauhardya-chakraborty-1b6345254/",
 	},
 ];
