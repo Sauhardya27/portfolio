@@ -21,10 +21,13 @@ const RecentProjects = () => {
 								<div className='relative w-full h-full overflow-hidden rounded-3xl bg-[#13162D]'>
 									<img src="/bg.png" alt="bg-img" />
 								</div>
-								<img 
-									src={img} 
-									alt={title} 
-									className='z-10 absolute bottom-0' />
+								<div className='absolute inset-0 flex items-center justify-center'>
+									<img
+										src={img}
+										alt={title}
+										className='z-10 absolute max-w-[95%] max-h-[95%]'
+									/>
+								</div>
 							</div>
 							<h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
 								{title}
@@ -47,7 +50,7 @@ const RecentProjects = () => {
 
 								<div className='flex justify-center items-center'>
 									<p className='flex lg:text-xl md:text-xs text-sm text-purple'>Check Live Site</p>
-									<FaArrowRight style={{ transform: 'rotate(-45deg)', fontSize: '1.5rem' }} className='ms-3' color='#CBACF9'/>
+									<FaArrowRight style={{ transform: 'rotate(-45deg)', fontSize: '1.5rem' }} className='ms-3' color='#CBACF9' />
 								</div>
 							</div>
 						</PinContainer>

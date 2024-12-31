@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
 	{
 		id: 1,
-		title: "I prioritize client collaboration, fostering open communication ",
+		title: "Building bridges through code, delivering value through collaboration",
 		description: "",
 		className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
 		imgClassName: "w-full h-full",
@@ -29,7 +29,7 @@ export const gridItems = [
 	{
 		id: 3,
 		title: "My tech stack",
-		description: "I constantly try to improve",
+		description: "Crafting solutions with cutting-edge technologies",
 		className: "lg:col-span-2 md:col-span-3 md:row-span-2",
 		imgClassName: "",
 		titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
 	},
 	{
 		id: 4,
-		title: "Tech enthusiast with a passion for development.",
+		title: "Turning complex challenges into elegant solutions",
 		description: "",
 		className: "lg:col-span-2 md:col-span-3 md:row-span-1",
 		imgClassName: "",
@@ -59,7 +59,7 @@ export const gridItems = [
 	},
 	{
 		id: 6,
-		title: "Do you want to start a project together?",
+		title: "Looking to collaborate on your next project?",
 		description: "",
 		className: "lg:col-span-2 md:col-span-3 md:row-span-1",
 		imgClassName: "",
@@ -72,15 +72,15 @@ export const gridItems = [
 export const projects = [
 	{
 		id: 1,
-		title: "3D Solar System Planets to Explore",
-		des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+		title: "Nexus - Chat App",
+		des: "A real-time chat app with instant messaging, image sharing, and emoji support, built for seamless communication.",
 		img: "/p1.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-		link: "https://github.com/adrianhajdin?tab=repositories",
+		iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/jwt.svg", "/socket-io.svg"],
+		link: "https://github.com/Sauhardya27/Nexus",
 	},
 	{
 		id: 2,
-		title: "Nible Concepts - Blog App",
+		title: "Nimble Concepts - Blog App",
 		des: "Unleash your creativity with Nimble Concepts, where fresh ideas spark transformation.",
 		img: "/p2.svg",
 		iconLists: ["/next.svg", "/css.svg", "/js.svg", "/nextAuth.svg", "/mongodb.svg"],

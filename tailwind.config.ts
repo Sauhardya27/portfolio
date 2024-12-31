@@ -163,6 +163,7 @@ const config = {
     },
   },
   plugins: [
+    require('tailwind-scrollbar')({ nocompatible: true }),
     require("tailwindcss-animate"),
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {

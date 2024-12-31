@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="dark scrollbar-thin scrollbar-track-[#0a0a2e] scrollbar-thumb-[#6366f1] hover:scrollbar-thumb-[#818cf8]">
       <body className={`${inter.className}`}>
         <ThemeProvider
           attribute="class"
